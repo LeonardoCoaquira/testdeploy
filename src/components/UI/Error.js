@@ -12,7 +12,7 @@ const Error = () => {
         <div>
           <div className={styles.imgContainer}>
             <div className={styles.title}>Lo siento</div>
-            <img className={styles.catImg} src={errorCat} />
+            <img className={styles.catImg} src={errorCat} alt=""/>
           </div>
           <div className={styles.content}>No pudimos encontrar esa página.</div>
         </div>

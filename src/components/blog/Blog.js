@@ -66,7 +66,7 @@ const Blog = (props) => {
       {filteredPosts.map((post) => (
         <div key={post.id} className={styles['blog-post']}>
           <h2 className={styles['blog-title']}>
-            <a href="#" className={styles['category-link']}>{post.title}</a>
+            <a href="/" className={styles['category-link']}>{post.title}</a>
           </h2>
           <p className={styles['blog-content']}>{post.content}</p>
         </div>

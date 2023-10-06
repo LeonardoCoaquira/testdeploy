@@ -2,7 +2,6 @@ import styles from "./Feature.module.css";
 import feature_diverse from "../../../assets/feature_diverse.jpg";
 import feature_safety from "../../../assets/feature_safety.jpg";
 import feature_interaction from "../../../assets/feature_interaction.jpg";
-import { Fragment } from "react";
 
 const Feature = () => {
   return (

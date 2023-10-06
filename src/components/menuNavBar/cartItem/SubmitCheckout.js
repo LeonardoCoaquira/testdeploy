@@ -3,7 +3,7 @@ import styles from "./SubmitCheckout.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { uiActions } from "../../../store/ui-slice";
 import { cartActions } from "../../../store/cart-slice";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const phoneRegex = /^\d{10}$/;
 const emailRegex = /\w+@\w+\.\w+/;
@@ -39,7 +39,6 @@ const SubmitCheckout = (props) => {
 
   const nameRef = useRef();
   const emailRef = useRef();
-  const phoneRef = useRef();
   const addressRef = useRef();
   const postalRef = useRef();
   const cityRef = useRef();

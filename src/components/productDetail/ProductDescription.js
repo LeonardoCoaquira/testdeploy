@@ -1,7 +1,7 @@
 import styles from "./ProductDescription.module.css";
 
 const ProductDescription = (props) => {
-  const { feature, description, id } = props;
+  const { feature, description } = props;
   const features = feature.map((feature) => {
     return <li key={feature}>{feature}</li>;
   });

@@ -1,8 +1,6 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import styles from "./CheckOut.module.css";
-import { cartActions } from "../../../store/cart-slice";
 import { uiActions } from "../../../store/ui-slice";
-import { Link } from "react-router-dom";
 
 const CheckOut = () => {
   const dispatch = useDispatch();

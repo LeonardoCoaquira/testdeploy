@@ -40,14 +40,6 @@ const Account = (props) => {
     resetPasswordInput();
   };
 
-  const emailInputClasses = emailInputHasError
-    ? "form-control invalid"
-    : "form-control";
-
-  const passwordInputClasses = passwordInputHasError
-    ? "form-control invalid"
-    : "form-control";
-
   return (
     <form onSubmit={formSubmissionHandler} className={styles.container}>
       <div className={styles.inputContainer}>

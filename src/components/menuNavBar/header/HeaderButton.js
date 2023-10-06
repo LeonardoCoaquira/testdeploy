@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartShopping,
-  faUser,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./styles/HeaderButton.module.css";
@@ -10,7 +9,6 @@ import { uiActions } from "../../../store/ui-slice";
 import { useEffect, useState } from "react";
 
 import SearchButton from "./SearchButton";
-import { Link } from "react-router-dom";
 
 const HeaderButton = () => {
   const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
