@@ -1,7 +1,5 @@
 import styles from "./ItemsNavBar.module.css";
 import { Fragment } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch } from "react-redux";
 import { uiActions } from "../../../store/ui-slice";
 import { Link } from "react-router-dom";

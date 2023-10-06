@@ -13,6 +13,7 @@ const ProductPhotos = (props) => {
         key={`img-${index}`}
         className={styles.smallPicture}
         src={`../toy_items/${detailImg[index]}`}
+        alt=""
         onClick={() => nextImage(index)}
       />
     );
@@ -27,7 +28,7 @@ const ProductPhotos = (props) => {
       <div className={styles["bigPicture_container"]}>
         <img
           src={`../toy_items/${detailImg[currentPicIndex]}`}
-          alt="Big cat photo."
+          alt="product"
         />
       </div>
       <div className={styles.sImgContainer}>{sImg}</div>
